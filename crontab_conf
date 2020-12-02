@@ -1,0 +1,6 @@
+0 * * * * /home/vagrant/myscript.sh > /home/vagrant/outputfile
+1 * * * * mail -s 'Last hour report' -a /home/vagrant/outputfile someaddress@example.ru
+
+
+
+
